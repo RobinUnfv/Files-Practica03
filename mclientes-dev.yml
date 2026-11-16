@@ -1,5 +1,5 @@
 server:
-  port: ${PORT_MCLIENTE}
+  port: ${PORT_MCLIENTE:9101}
 
 spring:
   cloud:
